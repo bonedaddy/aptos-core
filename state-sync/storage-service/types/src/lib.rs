@@ -3,7 +3,7 @@
 
 #![forbid(unsafe_code)]
 
-use requests::StorageServiceRequest;
+use crate::requests::StorageServiceRequest;
 use responses::StorageServiceResponse;
 use serde::{Deserialize, Serialize};
 use thiserror::Error;
